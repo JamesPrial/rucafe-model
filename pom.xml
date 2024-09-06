@@ -5,21 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cs213.jpsr</groupId>
-    <artifactId>library</artifactId>
-    <version>v0.7-STABLE</version>
+    <artifactId>model</artifactId>
+    <version>v0.1-ALPHA</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
-
-    <distributionManagement>
-        <repository>
-        <id>github</id>
-        <name>GitHub JamesPrial Apache Maven Packages</name>
-        <url>https://maven.pkg.github.com/JamesPrial/rucafe-library</url>
-   </repository>
-</distributionManagement>
-
 
 </project>
