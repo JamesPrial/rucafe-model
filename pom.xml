@@ -12,5 +12,13 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
+    <dependencyManagement>
+            <dependency>
+            <groupId>cs213.jpsr</groupId>
+            <artifactId>library</artifactId>
+            <version>v0.7-STABLE</version>
+        </dependency> 
+    </dependencyManagement>
+    
 
 </project>
