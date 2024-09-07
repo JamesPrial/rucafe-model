@@ -8,6 +8,12 @@
     <artifactId>model</artifactId>
     <version>v0.1-ALPHA</version>
 
+    <parent>
+        <groupId>cs213.jpsr</groupId>
+        <artifactId>rucafe</artifactId>
+        <version>2</version>
+    </parent>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
