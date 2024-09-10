@@ -20,7 +20,15 @@
     <jacoco.unit-tests.limit.class-complexity>20</jacoco.unit-tests.limit.class-complexity>
     <jacoco.unit-tests.limit.method-complexity>5</jacoco.unit-tests.limit.method-complexity>
   </properties>
-  
+  <repositories>
+    <repository>
+        <id>github</id>
+        <name>GitHub JamesPrial Apache Maven Packages</name>
+        <url>https://maven.pkg.github.com/JamesPrial/rucafe-library</url>
+        <releases><enabled>true</enabled></releases>
+        <snapshots><enabled>true</enabled></snapshots>
+    </repository>
+</repositories>
   <dependencies>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
@@ -40,6 +48,7 @@
       <version>v0.7-STABLE</version>
     </dependency> 
   </dependencies>
+ 
   <build>
     <plugins>
       <plugin>
